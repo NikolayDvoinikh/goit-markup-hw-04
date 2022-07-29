@@ -190,8 +190,34 @@ img {
 	padding-bottom: 0;
 }
 .feature-box {
-	max-width: 270px;
+	width: 270px;
 }
+.feature-icon {
+	widows: 70px;
+	height: 70px;
+	background-color: #f5f4fa;
+}
+/* .feature-box::before {
+	display: block;
+	content: "";
+	height: 120px;
+	background-color: #f5f4fa;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+	background-position: center;
+} */
+/* .feature-box:nth-child(1)::before {
+	background-image: url(../images/antenna.svg);
+}
+.feature-box:nth-child(2)::before {
+	background-image: url(../images/clock.svg);
+}
+.feature-box:nth-child(3)::before {
+	background-image: url(../images/diagram.svg);
+}
+.feature-box:nth-child(4)::before {
+	background-image: url(../images/astronaut.svg);
+} */
 
 .features-page .title {
 	font-size: 14px;
@@ -202,6 +228,7 @@ img {
 .features-text {
 	font-size: 14px;
 	line-height: 1.71;
+	width: 270px;
 }
 
 /* --------------Чем мы занимаемся------------- */
