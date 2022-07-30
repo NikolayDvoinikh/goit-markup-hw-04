@@ -33,8 +33,22 @@
 					</ul>
 				</nav>
 				<ul class="auth list">
-					<li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-					<li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+					<li class="header-item">
+						<a href="mailto:info@devstudio.com" class="link link-mail">
+							<svg class="contacts-icon env" width="21" height="16">
+								<use href="./images/icons.svg#icon-envelope"></use>
+							</svg>
+							info@devstudio.com
+						</a>
+					</li>
+					<li class="header-item">
+						<a href="tel:+380961111111" class="link link-tel">
+							<svg class="contacts-icon smrt" width="16" height="21">
+								<use href="./images/icons.svg#icon-smartphone"></use>
+							</svg>
+							+38 096 111 11 11
+						</a>
+					</li>
 				</ul>
 			</div>
 		</header>
@@ -147,16 +161,53 @@
 			</section>
 		</main>
 		<footer class="footer">
-			<div class="container">
-				<!-- prettier-ignore -->
-				<a href="./index.html" class="logo footer-logo">Web<span class="logo-white">Studio</span></a>
-				<address>
-					<ul class="list list-address">
-						<li><a href="https://goo.gl/maps/J37NzG6z3w71KRSu6" class="address">г. Киев, пр-т Леси Украинки, 26</a></li>
-						<li><a href="mailto:info@example.com" class="link link-address">info@example.com</a></li>
-						<li><a href="tel:+380991111111" class="link link-address link-tel">+38 099 111 11 11</a></li>
+			<div class="container footer-container">
+				<div>
+					<!-- prettier-ignore -->
+					<a href="./index.html" class="logo footer-logo">Web<span class="logo-white">Studio</span></a>
+					<address>
+						<ul class="list list-address">
+							<li>
+								<a href="https://goo.gl/maps/J37NzG6z3w71KRSu6" class="address">г. Киев, пр-т Леси Украинки, 26</a>
+							</li>
+							<li><a href="mailto:info@example.com" class="link link-address">info@example.com</a></li>
+							<li><a href="tel:+380991111111" class="link link-address link-tel">+38 099 111 11 11</a></li>
+						</ul>
+					</address>
+				</div>
+				<div class="footer-soc-thumb">
+					<h2 class="soc-title">присоединяйтесь</h2>
+					<ul class="soc-list list">
+						<li class="footer-soc-item">
+							<a href="" class="team-soc-link footer-soc-link">
+								<svg class="soc-link instagram" width="20px" height="20px">
+									<use href="./images/icons.svg#icon-instagram"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="footer-soc-item">
+							<a href="" class="team-soc-link footer-soc-link">
+								<svg class="soc-link twitter" width="20px" height="20px">
+									<use href="./images/icons.svg#icon-twitter"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="footer-soc-item">
+							<a href="" class="team-soc-link footer-soc-link">
+								<svg class="soc-link facebook" width="20px" height="20px">
+									<use href="./images/icons.svg#icon-facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="footer-soc-item">
+							<a href="" class="team-soc-link footer-soc-link">
+								<svg class="soc-link linkedin" width="20px" height="20px">
+									<use href="./images/icons.svg#icon-linkedin"></use>
+								</svg>
+							</a>
+						</li>
 					</ul>
-				</address>
+				</div>
 			</div>
 		</footer>
 	</body>
